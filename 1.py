@@ -256,18 +256,29 @@
 # Dictionary is denoted by curly brackets{}
 # Dictionary is present in key-value pair forms.
 # Dictionary mai indexing nahi keys hoti hai 
-d={
-    'stu-name':'Abhay',
-    'stu-age':42,
-    'stu_contact':213
-}
-# print(type(d))
-# print(d)
-d.update({'stu_roll':5})
-# print(d)
-d.pop('stu-age')
-# print(d)
-# for i in d:
-    # print(d[i])
-for n in d.keys():
-    print(n)
+# d={
+#     'stu-name':'Abhay',
+#     'stu-age':42,
+#     'stu_contact':213
+# }
+# # print(type(d))
+# # print(d)
+# d.update({'stu_roll':5})
+# # print(d)
+# d.pop('stu-age')
+# # print(d)
+# # for i in d:
+#     # print(d[i])
+# for n in d.keys():
+#     print(n)
+# SETS
+# s1={10,20,30,40,}
+# s2={20,2,3,40,5}
+# s3=s1.union(s2)
+# print(s3)
+# s4=s1.intersection(s2)
+# print(s4)
+# s1.update('5')
+# s1.pop()
+# s1.remove(20)
+# print(s1)
