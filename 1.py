@@ -239,5 +239,35 @@
 # lis=[1,2,3,4,5]
 # lis.pop()
 # print(lis)
-tpl=(1,2.1,'q',"Adarsh")
-print(tpl)
+# tpl=(1,2.1,'q',"Adarsh")
+# print(tpl)
+# tpl.append(9) #Doesn't work
+# print(tpl.count(2))
+# tpl_list=list(tpl)
+# print(tpl_list)
+# tpl_list.append("oriental")
+# print(tpl_list)
+# t=(1,2,3,4,5,6,7,8,9,10,11,12,13,14,15)
+# tl=list(t)
+# for i in tl:
+#     if i%2==0: 
+#         tl.remove(i)
+# print(tl)
+# Dictionary is denoted by curly brackets{}
+# Dictionary is present in key-value pair forms.
+# Dictionary mai indexing nahi keys hoti hai 
+d={
+    'stu-name':'Abhay',
+    'stu-age':42,
+    'stu_contact':213
+}
+# print(type(d))
+# print(d)
+d.update({'stu_roll':5})
+# print(d)
+d.pop('stu-age')
+# print(d)
+# for i in d:
+    # print(d[i])
+for n in d.keys():
+    print(n)
