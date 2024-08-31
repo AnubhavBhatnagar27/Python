@@ -206,33 +206,38 @@
 # for i in lis:
 #     if i%2!=0:
 #         print(i)
-lis=[1,2,3,4,5]
-print(lis)
-print(
-    '''
-        Press 1 to add element
-        Press 2 to remove element
-        Press 3 to update element
-        Press 4 to clear ''')
-x=int(input("Enter the choice:"))
-if x==1:
-    y=int(input("How many elements you want to enter: "))
-    for i in range(y):
-        z=int(input("Enter an element: "))
-        lis.append(z)
-elif x==2:
-    a=int(input("How many elements you want to remove: "))
-    for i in range(a):
-        q=int(input("Enter the element to be removed: "))
-        lis.remove(q)
-elif x==3:
-    b=int(input("How many elements you want to update: "))
-    for i in range(b):
-        q=int(input("Enter the index to be update: "))
-        p=int(input("Enter the new value: "))
-        lis[q]=p
-elif x==4:
-    lis.clear()
-else:
-    print("Invalid Choice.")
-print(lis)
+# lis=[1,2,3,4,5]
+# print(lis)
+# print(
+#     '''
+#         Press 1 to add element
+#         Press 2 to remove element
+#         Press 3 to update element
+#         Press 4 to clear ''')
+# x=int(input("Enter the choice:"))
+# if x==1:
+#     y=int(input("How many elements you want to enter: "))
+#     for i in range(y):
+#         z=int(input("Enter an element: "))
+#         lis.append(z)
+# elif x==2:
+#     a=int(input("How many elements you want to remove: "))
+#     for i in range(a):
+#         q=int(input("Enter the element to be removed: "))
+#         lis.remove(q)
+# elif x==3:
+#     b=int(input("How many elements you want to update: "))
+#     for i in range(b):
+#         q=int(input("Enter the index to be update: "))
+#         p=int(input("Enter the new value: "))
+#         lis[q]=p
+# elif x==4:
+#     lis.clear()
+# else:
+#     print("Invalid Choice.")
+# print(lis)
+# lis=[1,2,3,4,5]
+# lis.pop()
+# print(lis)
+tpl=(1,2.1,'q',"Adarsh")
+print(tpl)
