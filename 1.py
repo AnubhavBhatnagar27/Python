@@ -147,7 +147,7 @@
 #         continue
 #     else:
 #         print(n)
-#HW: why does indexing start from zero
+# HW: why does indexing start from zero
 # str="oriental"
 # # print(str[::-1])
 # print(str.lower())
@@ -239,5 +239,46 @@
 # lis=[1,2,3,4,5]
 # lis.pop()
 # print(lis)
-tpl=(1,2.1,'q',"Adarsh")
-print(tpl)
+# tpl=(1,2.1,'q',"Adarsh")
+# print(tpl)
+# tpl.append(9) #Doesn't work
+# print(tpl.count(2))
+# tpl_list=list(tpl)
+# print(tpl_list)
+# tpl_list.append("oriental")
+# print(tpl_list)
+# t=(1,2,3,4,5,6,7,8,9,10,11,12,13,14,15)
+# tl=list(t)
+# for i in tl:
+#     if i%2==0: 
+#         tl.remove(i)
+# print(tl)
+# Dictionary is denoted by curly brackets{}
+# Dictionary is present in key-value pair forms.
+# Dictionary mai indexing nahi keys hoti hai 
+# d={
+#     'stu-name':'Abhay',
+#     'stu-age':42,
+#     'stu_contact':213
+# }
+# # print(type(d))
+# # print(d)
+# d.update({'stu_roll':5})
+# # print(d)
+# d.pop('stu-age')
+# # print(d)
+# # for i in d:
+#     # print(d[i])
+# for n in d.keys():
+#     print(n)
+# SETS
+# s1={10,20,30,40,}
+# s2={20,2,3,40,5}
+# s3=s1.union(s2)
+# print(s3)
+# s4=s1.intersection(s2)
+# print(s4)
+# s1.update('5')
+# s1.pop()
+# s1.remove(20)
+# print(s1)
