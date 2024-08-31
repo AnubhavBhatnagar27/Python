@@ -147,7 +147,7 @@
 #         continue
 #     else:
 #         print(n)
-# HW: why does indexing start from zero
+#HW: why does indexing start from zero
 # str="oriental"
 # # print(str[::-1])
 # print(str.lower())
